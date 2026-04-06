@@ -29,8 +29,8 @@ struct ToDoListView: View {
                     .font(.title2)
                 }
                 // Shorthand calls to .onDelete and onMove here
-                .onDelete(perform: toDosVM.delete)
-                .onMove(perform: toDosVM.move)
+//                .onDelete(perform: toDosVM.delete)
+//                .onMove(perform: toDosVM.move)
                 // Traditional calls are below
                 
             }

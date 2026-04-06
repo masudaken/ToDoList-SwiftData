@@ -12,9 +12,9 @@ class ToDosViewModel: ObservableObject {
     
     init() {
         // Temp Data here. Will eventually load in saved data
-        toDos.append(ToDo(id: UUID().uuidString, "Learn Swift"))
-        toDos.append(ToDo(id: UUID().uuidString, "Build Apps"))
-        toDos.append(ToDo(id: UUID().uuidString, "Change the World"))
+        toDos.append(ToDo(id: UUID().uuidString, item: "Learn Swift"))
+        toDos.append(ToDo(id: UUID().uuidString, item: "Change the World"))
+        toDos.append(ToDo(id: UUID().uuidString, item: "Build Apps"))
     }
     
     func saveToDo(toDo: ToDo) {
